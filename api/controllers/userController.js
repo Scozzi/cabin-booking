@@ -23,6 +23,7 @@ router.post('/', function(req, res) {
 	},
 	function (err, user) {
 		if (err) {
+			console.log(err);
 			return 
 			res.status(500)
 			.send("There was a problem adding the user to the database.");
