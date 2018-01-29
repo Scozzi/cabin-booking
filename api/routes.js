@@ -23,6 +23,9 @@ var api = express.Router();
 var UserController = require('./controllers/userController');
 api.use('/users', UserController);
 
+var BookingController = require('./controllers/bookingController');
+api.use('/booking', BookingController);
+
 // api.get("/", function(req, res, next) {
 // 	User.find()
 // 		.sort({ createdAt: "descending" })
