@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Hello from '@/components/Hello'
 import Semantic from '@/components/Semantic'
 import Dashboard from '@/components/dash/dashboard'
+import CalenderTest from '@/components/CalenderTest'
 
 Vue.use(Router)
 
@@ -22,6 +23,11 @@ export default new Router({
       path: '/dashboard',
       name: 'Dashboard',
       component: Dashboard
+    },
+    {
+      path: '/testing-calender',
+      name: 'Testing-Calender',
+      component: CalenderTest
     }
   ]
 })

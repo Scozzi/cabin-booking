@@ -40,7 +40,9 @@
   </div>
   <div class="pusher">
     <!-- Site content !-->
-    <img class="sidebar-opener" src="./assets/logo.png">
+    <div class="ui container"> 
+      <img class="sidebar-opener ui centered image" src="./assets/logo.png">
+    </div>
     <router-view></router-view>
 
   </div>

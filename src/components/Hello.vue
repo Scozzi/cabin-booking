@@ -18,6 +18,7 @@
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank">awesome-vue</a></li>
     </ul>
     <router-link to="/testing-semantic"> Semantic Playground </router-link>
+    <router-link to="/testing-calender"> Vue Calender Testing </router-link>
     <router-link to="/dashboard"> Dashboard </router-link>
   </div>
 </template>
